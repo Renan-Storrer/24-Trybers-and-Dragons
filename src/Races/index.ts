@@ -1,3 +1,3 @@
-import Race from "./Races";
+import Race from './Races';
 
 export default Race;
