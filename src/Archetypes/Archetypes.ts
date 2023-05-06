@@ -1,4 +1,4 @@
-import { EnergyType } from "../Energy";
+import { EnergyType } from '../Energy';
 
 abstract class Archetypes {
   private _name: string;
@@ -12,15 +12,15 @@ abstract class Archetypes {
   }
 
   public get name(): string {
-    return this._name
+    return this._name;
   }
 
   public get cost(): number {
-    return this._cost
+    return this._cost;
   }
 
   public get special(): number {
-    return this._special
+    return this._special;
   }
 
   static createdArchetypeInstances(): number {
