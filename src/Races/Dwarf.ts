@@ -1,4 +1,4 @@
-import Race from "./Race";
+import Race from './Race';
 
 class Dwarf extends Race {
   public _maxLifePoints: number;
@@ -15,7 +15,7 @@ class Dwarf extends Race {
   }
 
   static override createdRacesInstances(): number {
-    return this._instancesNumber
+    return this._instancesNumber;
   }
 }
 
