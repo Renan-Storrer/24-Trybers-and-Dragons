@@ -1,5 +1,5 @@
-import { EnergyType } from "../Energy";
-import Archetypes from "./Archetypes";
+import { EnergyType } from '../Energy';
+import Archetypes from './Archetypes';
 
 class Necromancer extends Archetypes {
   private static _instancesNumber = 0;

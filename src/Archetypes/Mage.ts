@@ -1,5 +1,5 @@
-import { EnergyType } from "../Energy";
-import Archetypes from "./Archetypes";
+import { EnergyType } from '../Energy';
+import Archetypes from './Archetypes';
 
 class Mage extends Archetypes {
   private static _instanceNumber = 0;
@@ -13,7 +13,7 @@ class Mage extends Archetypes {
   }
 
   override get energyType(): EnergyType {
-    return this._type
+    return this._type;
   }
 
   static override createdArchetypeInstances(): number {
